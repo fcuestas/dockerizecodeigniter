@@ -8,9 +8,12 @@ Es importante la estrcutura de carpetas para que funcionen los fiheros:
 1.- Descargar Codeigniter y descomprimirlo en una carpeta llamada codei
    Codeigniter 4.3.6: https://github.com/CodeIgniter4/framework/releases/tag/v4.3.6
 
-Descarga: https://github.com/codeigniter4/framework/archive/refs/tags/v4.3.6.tar.gz
-Descomprimir: tar -zxvf v4.3.6.tar.gz
-Nombrar carpeta: mv v4.3.6 codei
+Descarga: https://github.com/codeigniter4/framework/archive/refs/tags/v4.3.6.tar.gz 
+
+Descomprimir: tar -zxvf v4.3.6.tar.gz 
+
+Nombrar carpeta: mv v4.3.6 codei 
+
 	
 2 (Opcional) Modificar ficheros Codeigniter
 
