@@ -25,5 +25,6 @@ docker build -t codeiimagen .
 
 4.- Puesta en marcha del contenedor
 
-docker run --rm -d -p 8080:80 -v ${PWD}:/var/www/html --name codeicontainer codeiimagen
+docker run --rm -d -p 8080:80 -v ${PWD}:/var/www --name codeicontainer codeiimagen
+
 (Realizamos un bind-mout para que los cambios en los resarrollos en el directorio "codei" se visualicen en la aplicación web)
