@@ -15,9 +15,10 @@ Descomprimir: tar -zxvf v4.3.6.tar.gz
 Nombrar carpeta: mv v4.3.6 codei 
 
 	
-2 (Opcional) Modificar ficheros Codeigniter
+2.- Modificar ficheros Codeigniter
 
-Fichero .env
+Permisos en la carpeta writeable (y sus subcarpetas)
+(Opcional) Fichero .env
 	
 3.- Crear la imagen
 
