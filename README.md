@@ -16,7 +16,7 @@ Es importante la estrcutura de carpetas para que funcionen los fiheros:
 	Fichero .env
 	
 3.- Crear la imagen
-	docker build ./FilesDocker/Dockerfile -t codeiimagen .
+	docker build -t codeiimagen .
 
 4.- Puesta en marcha del contenedor
 
