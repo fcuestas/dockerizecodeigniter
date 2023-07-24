@@ -1,0 +1,13 @@
+services:
+  fe:
+    build: .
+    
+    ports:
+      - "8080:80"
+  db:
+    image: "mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: "lab-password"
+      MYSQL_USER: "admin"
+      MYSQL_PASSWORD: "lab-password"
+      MYSQL_DATABASE: "database"
