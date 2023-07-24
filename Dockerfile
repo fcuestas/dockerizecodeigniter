@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
 		libgomp1 \
 		libmagickcore-6.q16-dev \
 		libmagickwand-6.q16-dev \
+		mariadb-client\
 	&& docker-php-ext-configure gd --with-freetype --with-jpeg \
 	&& docker-php-ext-install -j$(nproc) gd \
 	&& docker-php-ext-install intl \ 
@@ -23,7 +24,7 @@ RUN a2ensite codei.conf \
 	&& a2dissite 000-default \	
 	&& a2enmod rewrite
 
-
+# Copiamos contenido codei en la carpeta de recursos del virtualhost
 COPY codei /var/www/codei
 # Permisos de los ficheros (Debe realizarse un bind-mount)
 RUN chmod 766 -R /var/www/codei/writable \
